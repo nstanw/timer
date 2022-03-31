@@ -26,8 +26,22 @@
         <h1>:</h1>
         <h1 id="second"></h1>
         <br />
-        <button id="start" type="button" class="btn btn-warning">START</button>
-        <button id="stop" type="button" class="btn btn-warning">STOP</button>
+        <button
+          id="start"
+          type="button"
+          class="btn btn-warning"
+          onclick="start()"
+        >
+          START
+        </button>
+        <button
+          id="stop"
+          type="button"
+          class="btn btn-warning"
+          onclick="stop()"
+        >
+          STOP
+        </button>
       </section>
 
       <section class="col-6" id="plan">
@@ -71,9 +85,9 @@
       <section id="input">
         Chose time <br />
         <input type="text" id="tasker" placeholder="Sẽ học nội dung..." />
-        <input type="number" value="25" id="time" /> <br />
+        <input type="number" id="time" value="25" /> <br />
       </section>
     </div>
-    <script src="model.js"></script>
+    <script src="js.js"></script>
   </body>
 </html>
