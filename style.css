@@ -1,18 +1,24 @@
 * {
   box-sizing: border-box;
+  color: rgb(198, 231, 10);
 }
 #timer {
-  padding-top: 10%;
-  padding: 5%;
   text-align: center;
-  width: 80%;
-  margin: auto;
-  background-color: rgb(216, 114, 114);
 }
-input {
+#input {
   text-align: center;
 }
 h1 {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 10em;
+  color: antiquewhite;
+}
+section {
+  padding: 5%;
+  background-color: rgb(3, 3, 3);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 2%;
+  border: 1px solid olive;
 }
